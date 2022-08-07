@@ -27,16 +27,16 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ### Executar
-<h4> Clone este repositório</h4>
+<h5> Clone este repositório</h5>
 $ git clone https://github.com/emilly-soares/Desafio-Mercado-Radar.git</>
-<h4>Acesse a pasta do projeto no seu terminal/cmd</h4>
+<h5>Acesse a pasta do projeto no seu terminal/cmd</h5>
 $ cd Desafio-Mercado-Radar
-<h4>Instale as dependências</h4>
+<h5>Instale as dependências</h5>
 $ npm install
-<h4>Execute a aplicação em modo de desenvolvimento</ha>
+<h5>Execute a aplicação em modo de desenvolvimento</h5>
 $ npm run start
 
-<h4> A aplicação será aberta na porta:3000 - acesse http://localhost:3000</h4>
+<h5> A aplicação será aberta na porta:3000 - acesse http://localhost:3000</h5>
 
 
 ### Tecnologia 
