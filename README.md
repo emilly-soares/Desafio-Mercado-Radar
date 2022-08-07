@@ -4,18 +4,19 @@
 </h1>
 <p align="center">🚀 lib para construir interfaces do usuário com componentes reutilizáveis</p>
 
-<center>[![Netlify Status](https://api.netlify.com/api/v1/badges/ff455a87-7540-4360-aaa6-e097b17f4aa9/deploy-status)](https://app.netlify.com/sites/desafio-robo/deploys)</center>
+<h4 align="center">[![Netlify Status](https://api.netlify.com/api/v1/badges/ff455a87-7540-4360-aaa6-e097b17f4aa9/deploy-status)](https://app.netlify.com/sites/desafio-robo/deploys)</h4>
 
 <p align="center">
 <a href="#requisito">Pré-requisito</a> •
-<a href="#rodando">Como executar o projeto</a> •
+<a href="#rodando">Como executar</a> •
  <a href="#tecnologias">Tecnologia</a> • 
  <a href="#Problema">Objetivo</a> •
+<a href="#Deploy">Deploy</a> •
  <a href="#autor">Autor</a>
 </p>
 
 <h4 align="center"> 
-	🚧  React Select 🚀 Construído ...  🚧
+	🚧 🚀 Construído ...  🚧
 </h4>
 
 
@@ -25,17 +26,17 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### 🚀 Como executar o projeto
-# Clone este repositório
+### 🚀 Como executar
+<h3> Clone este repositório</h3>
 $ git clone https://github.com/emilly-soares/Desafio-Mercado-Radar.git</>
-# Acesse a pasta do projeto no seu terminal/cmd
+<h4>Acesse a pasta do projeto no seu terminal/cmd</h4>
 $ cd Desafio-Mercado-Radar
-# Instale as dependências
+<h4>Instale as dependências</h4>
 $ npm install
-# Execute a aplicação em modo de desenvolvimento
+<h4>Execute a aplicação em modo de desenvolvimento</ha>
 $ npm run start
 
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+<h4> A aplicação será aberta na porta:3000 - acesse http://localhost:3000</h4>
 
 
 ### 🛠 Tecnologia
@@ -59,7 +60,7 @@ Assuma que o robô se movimenta para o NORTE em relação ao eixo y. Ou seja, um
  
 Exemplo: Se o robô está na posição (0, 0, N), o comando "MML" fará ele chegar na posição (0,2,W)
  
-Requisitos do desafio
+<h4>Requisitos do desafio</h4>
  
 O terreno deverá ser iniciado com 5x5 posições;
 O robô inicia na coordenada (0, 0, N);
@@ -67,16 +68,12 @@ Todos os comandos enviados ao robô devem retornar a posição dele (Posição a
 O robô não pode se movimentar para fora da área especificada;
 Não é necessário guardar o estado do robô;
  
-Objetivo Final
+<h4>Objetivo Final</h4>
  
 Escreva um programa que permita aos engenheiros da MRSA enviar comandos para o robô e saber onde ele se encontra. Os engenheiros irão rodar testes no seu software para garantir que ele se comporta da forma esperada, antes de enviar o robô para Marte.
- 
-Requisitos técnicos
- 
-O desafio deve ser entregue escrito em qualquer linguagem de programação;
-Não deverá ser utilizada qualquer biblioteca de terceiros;
 
-
+### 🚀 Deploy 
+<a src="https://desafio-robo.netlify.app/">Acessar</a>
 
 ###Autor
 Feito por Emilly Soares 👋🏽 Entre em contato!
