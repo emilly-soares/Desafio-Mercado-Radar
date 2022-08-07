@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 function App() {
+  const [control, setEntry] = useState('');
+  let x = 0, y = 0, cardinal_points = "N";
   function create_ground() {
     let ground = [];
     for (let l = 0; l <= 4; l++) {
@@ -10,12 +14,11 @@ function App() {
     return ground;
   }
   function moveRobot() {
-    let x = 0, y = 0, control = "MM", cardinal_points = "N";
     let entry = control.split('');
     let count = 0;
 
     if (control === "") {
-      return "informe a nova posição:";
+      return "Posição Inicial: " + x + y + cardinal_points;
     }
 
     let ground = create_ground();
@@ -81,13 +84,21 @@ function App() {
     if ((x < 0) || (x > 4) || (y > 4) || (y < 0)) {
       return "Entrada inválida, robô fora do terreno!";
     }
-    return "" + x + y + cardinal_points;
+    return "Posição Atual: " + x + y + cardinal_points;
   }
   return (
     <div className="App-inicial">
-      <div>
-        {moveRobot()}
-      </div>
+
+      <h1>Robô</h1>
+      <form onSubmit={moveRobot}>
+        <input
+          className="txt"
+          type="text"
+          onChange={event => setEntry((event.target.value).toUpperCase())}
+          required
+        ></input>
+      </form>
+      <p>{moveRobot()}</p>
 
     </div>
   );
