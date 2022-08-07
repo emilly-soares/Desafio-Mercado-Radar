@@ -1,5 +1,9 @@
 import { useState } from "react";
-
+import { Container } from "./style";
+import robot from "./assets/robot.png";
+import instagram from "./assets/instagram.png";
+import github from "./assets/github.png";
+import linkedin from "./assets/linkedin.png";
 function App() {
   const [control, setEntry] = useState('');
   let x = 0, y = 0, cardinal_points = "N";
@@ -87,19 +91,31 @@ function App() {
     return "Posição Atual: " + x + y + cardinal_points;
   }
   return (
-    <div className="App-inicial">
-
-      <h1>Robô</h1>
-      <form onSubmit={moveRobot}>
-        <input
-          className="txt"
-          type="text"
-          onChange={event => setEntry((event.target.value).toUpperCase())}
-          required
-        ></input>
-      </form>
-      <p>{moveRobot()}</p>
-
+    <div className="app">
+      <Container>
+        <div className="entry">
+          <img className="robo" src={robot} alt="icon robô" />
+          <form onSubmit={moveRobot}>
+            <input
+              className="txt"
+              type="text"
+              onChange={event => setEntry((event.target.value).toUpperCase())}
+              required
+            ></input>
+          </form>
+          <p className="result">{moveRobot()}</p>
+        </div>
+        <footer>
+          <div class="redesociais">
+            <section class="images-rs">
+              <a href="https://www.instagram.com/emilly.soaressantos/"><img class="instagram" src={instagram} alt="icon instagram"></img></a>
+              <a href="https://github.com/emilly-soares"><img class="github" src={github} alt="icon github"></img></a>
+              <a href="https://www.linkedin.com/in/emilly-soares-santos-0456931b0"><img class="linkedin" src={linkedin} alt="icon linkedin"></img></a>
+              <legend> Criado por Emilly Soares Santos</legend>
+            </section>
+          </div>
+        </footer>
+      </Container>
     </div>
   );
 }
