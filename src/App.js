@@ -1,14 +1,28 @@
 function App() {
+  function create_ground() {
+    let ground = [];
+    for (let l = 0; l <= 4; l++) {
+      ground[l] = [];
+      for (let c = 0; c <= 4; c++) {
+        ground[l][c] = "";
+      }
+    }
+    return ground;
+  }
   function moveRobot() {
-    let x = 0, y = 0, control = "MMRMMRMM", cardinal_points = "N";
+    let x = 0, y = 0, control = "MM", cardinal_points = "N";
     let entry = control.split('');
     let count = 0;
 
-    let ground = [];
-    for (let i = 0; i < 5; i++) {
-      ground[i] = [];
-      for (let j = 0; j < 5; j++) {
-        ground[i][j] = "";
+    if (control === "") {
+      return "informe a nova posição:";
+    }
+
+    let ground = create_ground();
+
+    for (let i = 0; i <= entry.length; i++) {
+      if ((entry[count] !== "M") && (entry[count] !== "R") && (entry[count] !== "L")) {
+        return "Entrada inválida!";
       }
     }
     while (count <= entry.length) {
@@ -64,7 +78,10 @@ function App() {
       }
       count++;
     }
-    return "(" + x + y + cardinal_points + ")";
+    if ((x < 0) || (x > 4) || (y > 4) || (y < 0)) {
+      return "Entrada inválida, robô fora do terreno!";
+    }
+    return "" + x + y + cardinal_points;
   }
   return (
     <div className="App-inicial">
@@ -77,4 +94,3 @@ function App() {
 }
 
 export default App;
-
