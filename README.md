@@ -82,4 +82,4 @@ Escreva um programa que permita aos engenheiros da MRSA enviar comandos para o r
 ### Autor
 Feito por Emilly Soares 👋🏽 Entre em contato!🚀
 
-<img src="./src/assets/app.png"></img>
+
