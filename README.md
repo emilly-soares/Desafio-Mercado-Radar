@@ -3,10 +3,12 @@
     <a href="https://pt-br.reactjs.org/">🔗 React</a>
 </h1>
 <p align="center">🚀 lib para construir interfaces do usuário com componentes reutilizáveis</p>
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ff455a87-7540-4360-aaa6-e097b17f4aa9/deploy-status)](https://app.netlify.com/sites/desafio-robo/deploys)
+
 <p align="center">
 <a href="#Pré-requisito">Pré-requisito</a> •
-<a href="#Como executar">Como executar</a> •
+<a href="#Como Executar">Como Executar</a> •
  <a href="#Tecnologia">Tecnologia</a> • 
  <a href="#Desafio">Desafio</a> •
 <a href="#Deploy">Deploy</a> •
@@ -24,7 +26,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### Como executar 
+### Como Executar
 <h3> Clone este repositório</h3>
 $ git clone https://github.com/emilly-soares/Desafio-Mercado-Radar.git</>
 <h4>Acesse a pasta do projeto no seu terminal/cmd</h4>
