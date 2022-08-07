@@ -26,6 +26,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
+
 ### Executar
 <h5> Clone este repositório</h5>
 $ git clone https://github.com/emilly-soares/Desafio-Mercado-Radar.git</>
@@ -43,6 +44,7 @@ $ npm run start
 
 A seguinte ferramenta foi utilizada na construção do projeto:
 - [React](https://pt-br.reactjs.org/)
+
 
 ### Desafio
  
@@ -72,10 +74,12 @@ Não é necessário guardar o estado do robô;
  
 Escreva um programa que permita aos engenheiros da MRSA enviar comandos para o robô e saber onde ele se encontra. Os engenheiros irão rodar testes no seu software para garantir que ele se comporta da forma esperada, antes de enviar o robô para Marte.
 
+
 ### Deploy 
-🚀<a href="https://desafio-robo.netlify.app/">🔗 Acessar</a>
+🔗<a href="https://desafio-robo.netlify.app/"> Acessar</a>🚀
+
 
 ### Autor
-Feito por Emilly Soares 👋🏽 Entre em contato!
+Feito por Emilly Soares 👋🏽 Entre em contato!🚀
 
 
