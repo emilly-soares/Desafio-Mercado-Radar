@@ -4,13 +4,13 @@
 </h1>
 <p align="center">🚀 lib para construir interfaces do usuário com componentes reutilizáveis</p>
 
-<h4 align="center">[![Netlify Status](https://api.netlify.com/api/v1/badges/ff455a87-7540-4360-aaa6-e097b17f4aa9/deploy-status)](https://app.netlify.com/sites/desafio-robo/deploys)</h4>
+<h4 align="center">[Netlify Status](https://api.netlify.com/api/v1/badges/ff455a87-7540-4360-aaa6-e097b17f4aa9/deploy-status)](https://app.netlify.com/sites/desafio-robo/deploys)</h4>
 
 <p align="center">
-<a href="#requisito">Pré-requisito</a> •
-<a href="#rodando">Como executar</a> •
- <a href="#tecnologias">Tecnologia</a> • 
- <a href="#Problema">Objetivo</a> •
+<a href="#Pré-requisito">Pré-requisito</a> •
+<a href="#Como executar">Como executar</a> •
+ <a href="#Tecnologia">Tecnologia</a> • 
+ <a href="#Desafio">Desafio</a> •
 <a href="#Deploy">Deploy</a> •
  <a href="#autor">Autor</a>
 </p>
@@ -44,7 +44,7 @@ $ npm run start
 A seguinte ferramenta foi utilizada na construção do projeto:
 - [React](https://pt-br.reactjs.org/)
 
-### Problema
+### Desafio
  
 Um robô deve ser colocado pela MRSA (Mercado Radar Space Agency) para explorar um terreno em Marte.
  
