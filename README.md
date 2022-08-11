@@ -76,7 +76,7 @@ Escreva um programa que permita aos engenheiros da MRSA enviar comandos para o r
 
 
 ### Deploy 
-🔗<a href="[desafio-robo.netlify.app](https://desafio-robo.netlify.app/)"> Acessar</a>🚀
+🔗[desafio-robo.netlify.app](https://desafio-robo.netlify.app/)🚀
 
 
 ### Autor
