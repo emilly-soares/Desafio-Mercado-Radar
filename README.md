@@ -4,7 +4,7 @@
 </h1>
 <p align="center">🚀 lib para construir interfaces do usuário com componentes reutilizáveis</p>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ff455a87-7540-4360-aaa6-e097b17f4aa9/deploy-status)](https://app.netlify.com/sites/desafio-robo/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b5021192-97de-490d-a115-c26260106c8b/deploy-status)](https://app.netlify.com/sites/desafio-robo/deploys)
 
 <p align="center">
 <a href="#Pré-requisito">Pré-requisito</a> •
@@ -76,7 +76,7 @@ Escreva um programa que permita aos engenheiros da MRSA enviar comandos para o r
 
 
 ### Deploy 
-🔗<a href="https://desafio-robo.netlify.app/"> Acessar</a>🚀
+🔗<a href="[desafio-robo.netlify.app](https://desafio-robo.netlify.app/)"> Acessar</a>🚀
 
 
 ### Autor
