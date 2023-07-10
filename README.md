@@ -19,6 +19,8 @@
 	🚧 🚀 Construído ...  🚧
 </h4>
 
+![image](https://github.com/emilly-soares/Desafio-Mercado-Radar/assets/54116441/ccddbe1c-0f0e-4a44-8039-07689ca24762)
+
 
 ### Pré-requisito
 
